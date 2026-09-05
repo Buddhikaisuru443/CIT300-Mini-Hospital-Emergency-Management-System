@@ -200,6 +200,3 @@ The program safely handles:
 - Linked list add/search/remove operations
 - Empty queue and stack behavior
 
-## 13. Academic Note
-
-This project should be understood and explained by the student during the demonstration. The student should customize sample data, comments, screenshots, GitHub history, and presentation content to reflect their own development process.
