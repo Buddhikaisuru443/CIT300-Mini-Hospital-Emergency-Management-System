@@ -1,6 +1,6 @@
 # CIT300 - Mini Hospital Emergency Management System
 
-## Student Assignment
+## Assignment
 **Course:** CIT300 - Data Structures and Algorithms  
 **Project:** Mini Hospital Emergency Management System  
 **Language:** Java  
