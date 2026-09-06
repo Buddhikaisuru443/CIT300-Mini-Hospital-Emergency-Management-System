@@ -149,24 +149,8 @@ javac -d out src/main/java/com/cit300/hospital/*.java src/test/java/com/cit300/h
 java -cp out com.cit300.hospital.HospitalSystemTest
 ```
 
-## 9. Demonstration Flow
 
-A good demonstration sequence is:
-
-1. Display patient records to show BST in-order traversal.
-2. Search for Patient ID 1003.
-3. Delete a patient and display the BST again.
-4. Display the emergency queue.
-5. Dequeue the first emergency patient to demonstrate FIFO.
-6. Display the treatment history.
-7. Pop the latest treatment to demonstrate LIFO.
-8. Add a visit to Patient ID 1001.
-9. Search for the visit.
-10. Display the patient's visit history.
-11. Remove the visit and display the history again.
-12. Run `HospitalSystemTest` and show that all tests pass.
-
-## 10. Design Decisions
+## 09. Design Decisions
 
 ### BST
 Patient ID is used as the key because it should uniquely identify a patient. A BST allows searching, insertion, and deletion based on the key.
@@ -180,7 +164,7 @@ Completed treatments are stored with the most recent treatment on top, allowing 
 ### Singly Linked List
 A patient's previous visits form a sequential history. A linked list is suitable because visits can be added and removed without shifting an array.
 
-## 11. Empty Structure Handling
+## 10. Empty Structure Handling
 
 The program safely handles:
 
@@ -190,7 +174,7 @@ The program safely handles:
 - Searching/removing a missing visit
 - Displaying an empty visit history
 
-## 12. Testing
+## 11. Testing
 
 `HospitalSystemTest.java` checks:
 
